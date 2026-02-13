@@ -37,7 +37,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/bg.png"
+          src={`${import.meta.env.BASE_URL}images/bg.svg`}
           alt="Background"
           className="w-full h-full object-cover opacity-50"
           onError={() => console.error("Failed to load background image")}
@@ -94,7 +94,7 @@ const Hero = () => {
         <figure className="w-full lg:w-1/2 order-1 lg:order-2 mt-8 lg:mt-0">
           <div className="relative flex justify-center items-center">
             <img
-              src="/images/developer.svg"
+              src={`${import.meta.env.BASE_URL}images/person.png`}
               alt="Professional developer working at a modern workspace"
               className="hero-image w-full max-w-lg lg:max-w-xl mb-4 h-auto max-h-[550px] object-cover rounded-2xl mt-10 border-white/10 transform transition-transform duration-500 hover:scale-105"
               onError={() => console.error("Failed to load developer image")}

@@ -55,7 +55,7 @@ const AppShowcase = () => {
       ref: refs.rydeRef,
       title: "oladoc - Doctors Appointment Booking System",
       githubUrl: "https://github.com/Shahid1275/appointment-system",
-      image: "/images/project1.png",
+      image: `${import.meta.env.BASE_URL}images/project1.png`,
       alt: "oladoc App Interface",
       bgColor: "bg-white",
       tech: [
@@ -71,7 +71,7 @@ const AppShowcase = () => {
       ref: refs.libraryRef,
       title: "Hotel Booking management system",
       githubUrl: "https://github.com/Shahid1275/Hotel-booking-system",
-      image: "/images/project6.png",
+      image: `${import.meta.env.BASE_URL}images/project2.png`,
       alt: "Node-Farm API",
       bgColor: "bg-[#FFEFDB]",
       tech: [
@@ -88,7 +88,7 @@ const AppShowcase = () => {
       ref: refs.ycDirectoryRef,
       title: "Secure Auth - Real Auth System",
       githubUrl: "https://github.com/Shahid1275/real-auth-system",
-      image: "/images/project3.png",
+      image: `${import.meta.env.BASE_URL}images/project3.png`,
       alt: "Secure Auth App",
       bgColor: "bg-[#FFE7EB]",
       tech: [
@@ -103,8 +103,8 @@ const AppShowcase = () => {
     {
       ref: refs.project4Ref,
       title: "Organic Shopper - Natural Ecommerce site",
-      githubUrl: "https://github.com/Shahid1275/organic-shopper",
-      image: "/images/project4.png",
+      githubUrl: "https://github.com/Shahid1275/FYP",
+      image: `${import.meta.env.BASE_URL}images/project4.png`,
       alt: "Organic Shopper Interface",
       bgColor: "bg-white",
       tech: [
@@ -120,7 +120,7 @@ const AppShowcase = () => {
       ref: refs.project5Ref,
       title: "AttendEase - Management System",
       githubUrl: "https://github.com/Shahid1275/Attend-Ease",
-      image: "/images/project5.png",
+      image: `${import.meta.env.BASE_URL}images/project5.png`,
       alt: "AttendEase Platform",
       bgColor: "bg-[#FFEFDB]",
       tech: ["React.js", "Next.js", "Material-UI", "Laravel APIs"],
@@ -129,7 +129,7 @@ const AppShowcase = () => {
       ref: refs.project6Ref,
       title: "Tiny URL - URL Shortener System",
       githubUrl: "https://github.com/Shahid1275/mern-url-shortener",
-      image: "/images/project2.png",
+      image: `${import.meta.env.BASE_URL}images/project6.png`,
       alt: "Tiny URL App",
       bgColor: "bg-[#FFE7EB]",
       tech: ["React.js", "Node.js", "Material-UI", "PostgreSQL", "JWT Auth"],

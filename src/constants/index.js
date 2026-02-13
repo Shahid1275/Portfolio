@@ -18,45 +18,45 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: `${import.meta.env.BASE_URL}images/ideas.svg` },
+  { text: "Concepts", imgPath: `${import.meta.env.BASE_URL}images/concepts.svg` },
+  { text: "Designs", imgPath: `${import.meta.env.BASE_URL}images/designs.svg` },
+  { text: "Code", imgPath: `${import.meta.env.BASE_URL}images/code.svg` },
+  { text: "Ideas", imgPath: `${import.meta.env.BASE_URL}images/ideas.svg` },
+  { text: "Concepts", imgPath: `${import.meta.env.BASE_URL}images/concepts.svg` },
+  { text: "Designs", imgPath: `${import.meta.env.BASE_URL}images/designs.svg` },
+  { text: "Code", imgPath: `${import.meta.env.BASE_URL}images/code.svg` },
 ];
 
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of experience" },
   { value: 85, suffix: "%", label: "Complex Problems Solver" },
-  { value: 5, suffix: "+", label: "Completed Projects" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
   { value: 8, suffix: "+", label: "Technologies Master" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: `${import.meta.env.BASE_URL}images/logos/react.svg`,
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: `${import.meta.env.BASE_URL}images/logos/node.svg`,
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: `${import.meta.env.BASE_URL}images/seo.svg`,
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: `${import.meta.env.BASE_URL}images/chat.svg`,
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: `${import.meta.env.BASE_URL}images/time.svg`,
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -64,7 +64,7 @@ const abilities = [
 
 const expCards = [
   {
-    imgPath: "/images/education.png",
+    imgPath: `${import.meta.env.BASE_URL}images/person.svg`,
     title: "Punjab College - FSc Pre-Medical",
     institution: "Punjab College",
     date: "2019 - 2021",
@@ -75,10 +75,10 @@ const expCards = [
     ],
   },
   {
-    imgPath: "/images/education.png",
+    imgPath: `${import.meta.env.BASE_URL}images/person.svg`,
     title: "Virtual University of Pakistan - BS Computer Science",
     institution: "Virtual University of Pakistan",
-    date: "November 2021 - July 2025 (Expected)",
+    date: "November 2021 - August 2025 ",
     responsibilities: [
       "Studying core computer science subjects including Data Structures, Algorithms, and Database Systems",
       "Working on academic projects involving web development and software engineering",
@@ -86,60 +86,71 @@ const expCards = [
     ],
   },
   {
-    imgPath: "/images/experience.png",
-    title: "Full Stack Developer Intern",
-    institution: "University's Company", // Replace with actual company name
-    date: "November 2024 - July 2025 (Expected)",
+    imgPath: `${import.meta.env.BASE_URL}images/exp3.svg`,
+    title: "Full Stack Developer",
+    institution: "Virtual University's -IT Department", // Replace with actual company name
+    date: "October 2024 - August 2025 ",
     responsibilities: [
-      "Developing and maintaining web applications using modern frameworks",
-      "Implementing responsive UI designs and optimizing performance",
-      "Collaborating with cross-functional teams to deliver high-quality software",
+      "Built internal web tools to automate administrative workflows",
+      "Designed intuitive user interfaces using React and Tailwind CSS",
+      "Maintained backend services and integrated databases for reliability",
     ],
   },
   {
-    imgPath: "/images/internship.png",
+    imgPath: `${import.meta.env.BASE_URL}images/exp3.svg`,
+    title: "Full Stack Developer",
+    institution: "724.one Pvt Ltd",
+    date: "September 2025 - Present",
+    responsibilities: [
+      "Implemented customer-facing features and interactive dashboards with React",
+      "Optimized performance and reduced initial load times across pages",
+      "Worked closely with product and QA to ship incremental releases",
+    ],
+  },
+  {
+    imgPath: `${import.meta.env.BASE_URL}images/devices.svg`,
     title: "Full Stack Developer Intern",
     institution: "Ultra Codes Pvt Ltd",
     date: "July 2024 - September 2024",
     responsibilities: [
-      "Assisted in developing and maintaining company websites and applications",
-      "Gained hands-on experience with frontend and backend technologies",
-      "Participated in code reviews and team meetings",
+      "Contributed to frontend features using React and component-driven development",
+      "Integrated RESTful APIs and optimized load performance",
+      "Participated in code reviews and Agile team sprints to deliver features",
     ],
   },
 ];
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "git",
+    imgPath: `${import.meta.env.BASE_URL}images/logos/git.svg`,
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    name: "mongodb",
+    imgPath: `${import.meta.env.BASE_URL}images/logos/mongodb.svg`,
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: "react",
+    imgPath: `${import.meta.env.BASE_URL}images/logos/react.svg`,
   },
 ];
 
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: `${import.meta.env.BASE_URL}images/insta.svg`,
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: `${import.meta.env.BASE_URL}images/fb.svg`,
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: `${import.meta.env.BASE_URL}images/x.svg`,
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: `${import.meta.env.BASE_URL}images/linkedin.png`,
   },
 ];
 

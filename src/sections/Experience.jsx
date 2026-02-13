@@ -80,7 +80,7 @@ const Experience = () => {
               <span>Professional Experience</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {expCards.slice(2, 4).map((card, index) => (
+              {expCards.slice(2).map((card, index) => (
                 <div
                   key={`exp-${index}`}
                   className="experience-card bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300"

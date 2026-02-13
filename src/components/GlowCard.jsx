@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { AiFillStar } from "react-icons/ai";
 
 const GlowCard = ({ card, index, children }) => {
   // refs for all the cards
@@ -33,9 +34,9 @@ const GlowCard = ({ card, index, children }) => {
       className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
     >
       <div className="glow"></div>
-      <div className="flex items-center gap-1 mb-5">
+      <div className="flex items-center gap-2 mb-5">
         {Array.from({ length: 5 }, (_, i) => (
-          <img key={i} src="/images/star.png" alt="star" className="size-5" />
+          <AiFillStar key={i} size={18} className="text-yellow-400" />
         ))}
       </div>
       <div className="mb-5">

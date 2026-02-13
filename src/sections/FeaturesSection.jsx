@@ -1,5 +1,7 @@
 import { abilities } from "../constants";
 import TitleHeader from "../components/TitleHeader";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { FiMessageSquare, FiClock } from "react-icons/fi";
 
 const FeaturesSection = () => (
   <section
@@ -29,12 +31,10 @@ const FeaturesSection = () => (
               {/* Icon container with gradient border effect */}
               <div className="relative size-16 flex items-center justify-center">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="size-14 flex items-center justify-center rounded-full bg-gray-800 group-hover:bg-gray-850 transition-all z-10">
-                  <img
-                    src={imgPath}
-                    alt={title}
-                    className="object-contain w-8 h-8"
-                  />
+                <div className="size-14 flex items-center justify-center rounded-full bg-gray-800 group-hover:bg-gray-850 transition-all z-10 w-14 h-14">
+                  {title.includes("Quality") && <AiOutlineCheckCircle className="text-indigo-400" size={28} />}
+                  {title.includes("Communication") && <FiMessageSquare className="text-teal-400" size={28} />}
+                  {title.includes("On-Time") && <FiClock className="text-orange-400" size={28} />}
                 </div>
               </div>
 
